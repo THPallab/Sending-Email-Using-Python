@@ -2,10 +2,13 @@ import smtplib, ssl
 
 port = 465
 smtp_server = "smtp.gmail.com"
-sender_email = "nainam549@gmail.com"
-receiver_email = "th4pallab@gmail.com"
-password = "amarkononamnai1"
-message = """\
+sender_email = "****"   #Your Email Address
+receiver_email = "***"  #Receiver Email Address
+password = "***"        #Your Email Password
+
+#Your Email With Body
+
+message = """\          
 Subject: Hi there
 
 This message is sent from Python."""
