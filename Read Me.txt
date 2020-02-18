@@ -1,0 +1,5 @@
+** At first turn on your sender email's "Less Secure App Access" permission.
+** Set your sender email address and password.
+** Set receiver email address.
+** Add the email subject in the subject section.
+** Run the python code.
