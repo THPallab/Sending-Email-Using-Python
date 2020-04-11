@@ -3,3 +3,5 @@
 ** Set receiver email address.
 ** Add the email subject in the subject section.
 ** Run the python code.
+
+# You can use Email.py file for basic email and Email_with_file.py file for the attachemts. Email_with_file.py also can send email without attachemts. But for this, you need to remove one portion of the code (Check the comment out instructions).
