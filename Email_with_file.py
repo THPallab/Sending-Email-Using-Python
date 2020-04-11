@@ -6,16 +6,16 @@ from email import encoders
 
 port = 465
 smtp_server = "smtp.gmail.com"
-sender_email = "only.photos.thp@gmail.com"
-receiver_email = "th4pallab@gmail.com"
-password = "11451405140"
-body = """This message is sent from Python."""
+sender_email = " Sender Email "
+receiver_email = " Receiver Email "
+password = " Sender Password "
+body = """ Email Body """
 
 # instance of MIMEMultipart 
 msg = MIMEMultipart()
 
 # storing the subject  
-msg['Subject'] = "File Testing Without File"
+msg['Subject'] = " Email Subject "
 
 # attach the body with the msg instance 
 msg.attach(MIMEText(body, 'plain'))
@@ -23,8 +23,8 @@ msg.attach(MIMEText(body, 'plain'))
 # File Part Starts From Here
   
 # open the file to be sent  
-filename = "test.py"
-attachment = open("/home/cloudwellthp/Documents/test.py", "rb") 
+filename = " Attachment File Name "
+attachment = open(" Attachemtn File Directory ", "rb") 
   
 # instance of MIMEBase and named as p 
 p = MIMEBase('application', 'octet-stream') 
